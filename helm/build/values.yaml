@@ -1,0 +1,15 @@
+app:
+  name: danieloh30-poi-gateway-app
+  namespace: danieloh30
+  cluster: .apps.rosa916.9nln.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/rosa916-rvhvd/danieloh30-gateway
+  org: rosa916-rvhvd
+  name: danieloh30-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: danieloh30/poi-gateway-app
+  tag: latest
